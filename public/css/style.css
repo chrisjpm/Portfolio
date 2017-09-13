@@ -1,0 +1,8 @@
+html{
+  background-image: url('../res/bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 50%;
+  background-position: right center;
+  margin: 20px;
+}
