@@ -25,22 +25,22 @@ $(document).ready(function() {
     switch (window.location.pathname) {
     case '/shop':
        $('.nav-shop').addClass('nav-active');
-       $('ul#pages li').removeClass('li-hover');
+       $('ul#pages li#shop').removeClass('li-hover');
        $('ul#pages li a').removeClass('nav-shop');
        break;
     case '/about-me':
        $('.nav-about').addClass('nav-active');
-       $('ul#pages li').removeClass('li-hover');
+       $('ul#pages li#about').removeClass('li-hover');
        $('ul#pages li a').removeClass('nav-about');
        break;
     case '/my-work':
        $('.nav-work').addClass('nav-active');
-       $('ul#pages li').removeClass('li-hover');
+       $('ul#pages li#work').removeClass('li-hover');
        $('ul#pages li a').removeClass('nav-work');
        break;
     case '/contact-me':
        $('.nav-contact').addClass('nav-active');
-       $('ul#pages li').removeClass('li-hover');
+       $('ul#pages li#contact').removeClass('li-hover');
        $('ul#pages li a').removeClass('nav-contact');
        break;
 }
