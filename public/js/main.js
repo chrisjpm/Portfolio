@@ -21,6 +21,24 @@ $(document).ready(function() {
     $('.back-img').css('margin-left', ((0 + (-xpos / 80)) + "px"));
   });
 
+  $('div#contact-img>img').hide();
+  $('img#rev-twitter').click(function(){
+    $('div#contact-img>img').fadeOut();
+    $('img#contact-twitter').fadeIn();
+  });
+  $('img#rev-dc').click(function(){
+    $('div#contact-img>img').fadeOut();
+    $('img#contact-dc').fadeIn();
+  });
+  $('img#rev-skype').click(function(){
+    $('div#contact-img>img').fadeOut();
+    $('img#contact-skype').fadeIn();
+  });
+  $('img#rev-email').click(function(){
+    $('div#contact-img>img').fadeOut();
+    $('img#contact-email').fadeIn();
+  });
+
   $(function() {
     switch (window.location.pathname) {
     case '/shop':
